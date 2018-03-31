@@ -22,7 +22,7 @@ class VModel(Model):
 		plt.imshow(self.png)
 		plt.show()
 	def save(self,FilePath):
-		png.save(FilePath)
+		self.png.save(FilePath)
 		print('Model-image is saved as ' + FilePath + '.')
 
 
